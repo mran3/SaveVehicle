@@ -1,5 +1,5 @@
 //
-//  AddContactController+UIPicker.swift
+//  AddVehicleController+UIPicker.swift
 //  Sav
 //
 //  Created by mran3 on 8/1/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension AddCarController: UIPickerViewDelegate, UIPickerViewDataSource {
+extension AddVehicleController: UIPickerViewDelegate, UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         1
     }
